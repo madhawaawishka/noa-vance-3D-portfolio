@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" width="520" height="640">
+  
+  <defs>
+    <linearGradient id="por" gradientTransform="rotate(160)">
+      <stop offset="0%" stop-color="#7621B0"/>
+      <stop offset="100%" stop-color="#BE4C00"/>
+    </linearGradient>
+    <radialGradient id="por-r" cx="30%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#BE4C00" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7621B0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="520" height="640" rx="40" fill="#0C0C0C"/>
+  <rect width="520" height="640" rx="40" fill="url(#por)" opacity="0.85"/>
+  <rect width="520" height="640" rx="40" fill="url(#por-r)"/>
+  <g>
+    <ellipse cx="260" cy="640" rx="190" ry="230" fill="#0C0C0C" opacity="0.55"/>
+    <circle cx="260" cy="250" r="120" fill="#0C0C0C" opacity="0.55"/>
+    <circle cx="260" cy="250" r="120" fill="url(#por)" opacity="0.4"/>
+    <circle cx="225" cy="240" r="10" fill="#fff" opacity="0.85"/>
+    <circle cx="295" cy="240" r="10" fill="#fff" opacity="0.85"/>
+    <path d="M226 296q34 26 68 0" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>

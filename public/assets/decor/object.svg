@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  
+  <defs>
+    <linearGradient id="blob" gradientTransform="rotate(60)">
+      <stop offset="0%" stop-color="#0B2A4A"/>
+      <stop offset="100%" stop-color="#2E8BC0"/>
+    </linearGradient>
+    <radialGradient id="blob-r" cx="30%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#2E8BC0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0B2A4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path d="M120 24c40 0 84 26 84 78 0 46-34 86-90 86-44 0-78-30-78-74 0-54 44-90 84-90z"
+        fill="url(#blob)"/>
+  <path d="M120 24c40 0 84 26 84 78 0 46-34 86-90 86-44 0-78-30-78-74 0-54 44-90 84-90z"
+        fill="url(#blob-r)"/>
+  <ellipse cx="92" cy="80" rx="26" ry="16" fill="#fff" opacity="0.25"/>
+</svg>

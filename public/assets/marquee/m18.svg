@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 540" width="840" height="540">
+  
+  <defs>
+    <linearGradient id="g18" gradientTransform="rotate(135)">
+      <stop offset="0%" stop-color="#0F2027"/>
+      <stop offset="100%" stop-color="#2C5364"/>
+    </linearGradient>
+    <radialGradient id="g18-r" cx="30%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#2C5364" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0F2027" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="840" height="540" fill="#0C0C0C"/>
+  <rect width="840" height="540" fill="url(#g18)" opacity="0.9"/>
+  <rect width="840" height="540" fill="url(#g18-r)"/>
+  <circle cx="621.6" cy="270" r="151.20000000000002" fill="#ffffff" opacity="0.08"/>
+  <circle cx="621.6" cy="270" r="108" fill="#ffffff" opacity="0.10"/>
+  <circle cx="621.6" cy="270" r="54" fill="#ffffff" opacity="0.18"/>
+  <!-- faux browser chrome -->
+  <circle cx="40" cy="38" r="7" fill="#ffffff" opacity="0.5"/>
+  <circle cx="64" cy="38" r="7" fill="#ffffff" opacity="0.35"/>
+  <circle cx="88" cy="38" r="7" fill="#ffffff" opacity="0.25"/>
+  <!-- headline + copy blocks -->
+  <rect x="40" y="226.79999999999998" width="353" height="22" rx="11" fill="#ffffff" opacity="0.9"/>
+  <rect x="40" y="262.79999999999995" width="286" height="22" rx="11" fill="#ffffff" opacity="0.7"/>
+  <rect x="40" y="310.79999999999995" width="420" height="12" rx="6" fill="#ffffff" opacity="0.4"/>
+  <rect x="40" y="330.79999999999995" width="370" height="12" rx="6" fill="#ffffff" opacity="0.3"/>
+  <rect x="40" y="366.79999999999995" width="160" height="44" rx="22" fill="#ffffff" opacity="0.92"/>
+</svg>

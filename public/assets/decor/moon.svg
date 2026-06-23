@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  
+  <defs>
+    <linearGradient id="moon" gradientTransform="rotate(120)">
+      <stop offset="0%" stop-color="#7621B0"/>
+      <stop offset="100%" stop-color="#BE4C00"/>
+    </linearGradient>
+    <radialGradient id="moon-r" cx="30%" cy="25%" r="80%">
+      <stop offset="0%" stop-color="#BE4C00" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7621B0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="120" cy="120" r="92" fill="url(#moon)"/>
+  <circle cx="120" cy="120" r="92" fill="url(#moon-r)"/>
+  <circle cx="96" cy="104" r="16" fill="#000" opacity="0.12"/>
+  <circle cx="150" cy="150" r="11" fill="#000" opacity="0.12"/>
+  <circle cx="138" cy="92" r="7" fill="#000" opacity="0.1"/>
+</svg>
